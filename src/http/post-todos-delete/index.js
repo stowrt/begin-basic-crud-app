@@ -8,7 +8,7 @@ exports.handler = async function destroy (req) {
     key
   })
   return {
-    statusCode: 204,
+    statusCode: 302,
     headers: {
       'location': '/',
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
